@@ -1,0 +1,21 @@
+package AccessModifiers;
+
+public class Compiletime {
+	  public int add(int a, int b) {  
+	        return a + b;  
+	    }  
+	    public double add(double a, double b) {  
+	        return a + b;  
+	    }  
+
+	public static void main(String[] args) {
+		Compiletime calc = new Compiletime();  
+        int sum1 = calc.add(5, 10);  
+        System.out.println("Sum of 5 and 10 (integers): " + sum1);  
+        double sum2 = calc.add(2.5, 3.7);  
+        System.out.println("Sum of 2.5 and 3.7 (doubles): " + sum2);  
+		
+
+	}
+
+}
