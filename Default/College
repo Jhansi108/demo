@@ -1,0 +1,19 @@
+package Java;
+class Apple{  
+void msg(){System.out.println("Hello");}  
+}  
+class Bag{  
+void msg(){System.out.println("Welcome");}  
+}  
+
+public class College extends Apple,Bag {
+
+	public static void main(String[] args) {
+		College obj=new College();
+		obj.msg();
+		
+		
+
+	}
+
+}
