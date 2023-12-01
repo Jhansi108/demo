@@ -1,0 +1,14 @@
+package GetterAndSetter;
+
+public class DefaultConst {
+	DefaultConst(){
+		System.out.println("Its default");
+	}
+
+	public static void main(String[] args) {
+		DefaultConst d=new DefaultConst();
+		
+
+	}
+
+}
